@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas Odyssey | Immersive Cultural Digital Atlas</title>
+    <meta name="description" content="Explore 180+ sovereign nations, thousands of cultures, and one planet through interactive maps, cultural spotlights, photo galleries, and timelines.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Leaflet.js CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    
+    <!-- Swiper.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-- Custom CSS (Theme: Beige, Aqua Blue, and Pink Accents) -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <!-- Global Screen Loader -->
+    <div id="screen-loader" class="screen-loader">
+        <div class="loader-content">
+            <div class="compass-spinner">
+                <i class="fa-solid fa-compass"></i>
+            </div>
+            <h2 class="loader-title">ATLAS ODYSSEY</h2>
+            <p class="loader-subtitle">Weaving cultural threads across 180+ nations...</p>
+        </div>
+    </div>
+
+    <!-- Background Ambient Sound Toggle -->
+    <div class="audio-control" id="audio-control">
+        <button id="btn-toggle-audio" class="btn-audio-toggle" title="Toggle Ambient Sounds">
+            <i class="fa-solid fa-volume-xmark"></i>
+        </button>
+        <span class="audio-tooltip">Ambient music</span>
+    </div>
+
+    <!-- MAIN VIEW CONTAINER -->
+    <main id="app-container">
+
+        <!-- 1. LANDING PAGE VIEW -->
+        <section id="view-landing" class="app-view active">
+            <!-- Atmospheric Project Background Layer -->
+            <div class="landing-bg-overlay"></div>
+            
+            <div class="landing-container">
+                <header class="landing-header">
+                    <div class="logo">
+                        <i class="fa-solid fa-compass logo-icon"></i>
+                        <span>ATLAS ODYSSEY</span>
+                    </div>
+                    <div class="landing-header-badge">
+                        <span class="pulse-dot"></span>
+                        <span>180+ Sovereign Nations Covered</span>
+                    </div>
+                </header>
+                
+                <div class="landing-main">
+                    <div class="landing-text-content">
+                        <div class="landing-badge">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <span>VIRTUAL CULTURAL EXPEDITION</span>
+                        </div>
+                        <h1 class="landing-title">
+                            180+ Countries.<br>
+                            <span class="gradient-text">Thousands of cultures.</span><br>
+                            One connected planet.
+                        </h1>
+                        <p class="landing-lead">
+                            Step beyond borders. Unveil the soul of every nation — from sacred heritage, signature cuisines, and folk attire to capitals, currencies, popular cities, and essential etiquette.
+                        </p>
+                        
+                        <div class="landing-cta-group">
+                            <button id="btn-begin-explore" class="btn-primary btn-lg">
+                                <span>Open Interactive World Map</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                            <button id="btn-quick-random" class="btn-secondary btn-lg">
+                                <i class="fa-solid fa-dice"></i>
+                                <span>Explore Random Country</span>
+                            </button>
+                        </div>
+
+                        <!-- Project Imagery Preview Chips -->
+                        <div class="landing-image-chips">
+                            <span class="chips-label">Cultural Highlights:</span>
+                            <div class="chips-list">
+                                <div class="culture-chip" data-id="JPN">
+                                    <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=120&auto=format&fit=crop" alt="Japan">
+                                    <span>🇯🇵 Japan</span>
+                                </div>
+                                <div class="culture-chip" data-id="EGY">
+                                    <img src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=120&auto=format&fit=crop" alt="Egypt">
+                                    <span>🇪🇬 Egypt</span>
+                                </div>
+                                <div class="culture-chip" data-id="ITA">
+                                    <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=120&auto=format&fit=crop" alt="Italy">
+                                    <span>🇮🇹 Italy</span>
+                                </div>
+                                <div class="culture-chip" data-id="PER">
+                                    <img src="https://images.unsplash.com/photo-1526392060635-9d6019884377?q=80&w=120&auto=format&fit=crop" alt="Peru">
+                                    <span>🇵🇪 Peru</span>
+                                </div>
+                                <div class="culture-chip" data-id="IND">
+                                    <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=120&auto=format&fit=crop" alt="India">
+                                    <span>🇮🇳 India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Aesthetic 3D WebGL Globe Area -->
+                    <div class="landing-visual">
+                        <div class="globe-viewport-card">
+                            <div class="globe-viewport">
+                                <!-- Three.js interactive canvas injected here -->
+                            </div>
+                            <div class="globe-hint-pill">
+                                <i class="fa-solid fa-arrows-spin"></i>
+                                <span>Interactive 3D Globe · Drag to spin</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Showcase Cards with Project Imagery -->
+                <div class="landing-project-showcase">
+                    <div class="showcase-card" data-id="ISL">
+                        <img src="https://images.unsplash.com/photo-1504893524553-b855bce32c67?q=80&w=600&auto=format&fit=crop" alt="Iceland" loading="lazy">
+                        <div class="showcase-card-overlay">
+                            <span class="showcase-tag">Land of Fire & Ice</span>
+                            <h4>Iceland</h4>
+                            <p>Active volcanoes, blue lagoons & Northern Lights</p>
+                        </div>
+                    </div>
+                    <div class="showcase-card" data-id="BRA">
+                        <img src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?q=80&w=600&auto=format&fit=crop" alt="Brazil" loading="lazy">
+                        <div class="showcase-card-overlay">
+                            <span class="showcase-tag">Tropical Energy</span>
+                            <h4>Brazil</h4>
+                            <p>Amazon rainforest, Rio carnival & samba</p>
+                        </div>
+                    </div>
+                    <div class="showcase-card" data-id="MAR">
+                        <img src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?q=80&w=600&auto=format&fit=crop" alt="Morocco" loading="lazy">
+                        <div class="showcase-card-overlay">
+                            <span class="showcase-tag">Sahara Caravans</span>
+                            <h4>Morocco</h4>
+                            <p>Blue Chefchaouen alleys, spices & desert dunes</p>
+                        </div>
+                    </div>
+                    <div class="showcase-card" data-id="AUS">
+                        <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=600&auto=format&fit=crop" alt="Australia" loading="lazy">
+                        <div class="showcase-card-overlay">
+                            <span class="showcase-tag">Pacific Wonders</span>
+                            <h4>Australia</h4>
+                            <p>Great Barrier Reef, red outbacks & coastal lifestyle</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <footer class="landing-footer">
+                    <p>&copy; 2026 Atlas Odyssey. Designed for explorers, educators, and global citizens.</p>
+                    <div class="landing-footer-links">
+                        <span>Theme: Warm Beige, Aqua Blue & Rose Pink</span>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+        <!-- 2. EXPLORER (MAP) VIEW -->
+        <section id="view-explorer" class="app-view">
+            <!-- Navigation Header -->
+            <header class="main-nav-header">
+                <div class="logo-group" id="logo-home">
+                    <i class="fa-solid fa-compass logo-icon"></i>
+                    <span class="logo-text">ATLAS ODYSSEY</span>
+                </div>
+                
+                <nav class="nav-links">
+                    <button id="btn-nav-map" class="nav-btn active">
+                        <i class="fa-solid fa-map-location-dot"></i> Map Explorer
+                    </button>
+                    <button id="btn-nav-photos" class="nav-btn">
+                        <i class="fa-solid fa-images"></i> Photo Explorer
+                    </button>
+                </nav>
+                
+                <div class="header-actions">
+                    <button id="btn-open-compare" class="btn-secondary">
+                        <i class="fa-solid fa-scale-balanced"></i> Compare Scale
+                    </button>
+                </div>
+            </header>
+
+            <div class="explorer-layout">
+                <!-- Left Sidebar: All 180 Countries Quick Access list -->
+                <aside class="sidebar-countries">
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" id="input-country-search" placeholder="Search 180+ countries, capitals, cities...">
+                    </div>
+                    
+                    <div class="sidebar-scroll">
+                        <div class="sidebar-group-title">
+                            <span>ALL COUNTRIES (180)</span>
+                            <span id="country-count-badge" class="badge-mini">180</span>
+                        </div>
+                        <ul class="country-list" id="sidebar-country-list">
+                            <!-- Populated dynamically via JS -->
+                        </ul>
+                    </div>
+                </aside>
+
+                <!-- Map Container Area -->
+                <div class="map-wrapper-container">
+                    <div id="map"></div>
+
+                    <!-- Instruction pill -->
+                    <div class="map-instructions">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>Click any country on the map to open its complete cultural & statistical profile box.</span>
+                    </div>
+
+                    <!-- ==============================================================
+                         COUNTRY SPOTLIGHT BOX (Requirement 3b)
+                         Opens on clicking any country: capital, currency, population,
+                         popular cities, languages, famous for, tourists, flags, must know, fun fact
+                         ============================================================== -->
+                    <div id="country-spotlight-box" class="country-spotlight-box hidden">
+                        <div class="box-inner-card">
+                            <!-- Close button -->
+                            <button id="btn-close-spotlight" class="btn-close-spotlight" title="Close Country Box">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+
+                            <!-- Header: Flag, Name, Continent -->
+                            <div class="box-header">
+                                <div class="box-flag-wrap">
+                                    <img id="box-flag-img" src="" alt="National Flag" class="box-flag-img">
+                                    <span id="box-flag-emoji" class="box-flag-emoji">🌐</span>
+                                </div>
+                                <div class="box-header-text">
+                                    <span id="box-continent" class="box-continent-pill">Continent</span>
+                                    <h2 id="box-country-name" class="box-country-name">Country Name</h2>
+                                    <span id="box-capital-sub" class="box-capital-sub">Capital: City</span>
+                                </div>
+                            </div>
+
+                            <!-- Scrollable Body with the 10 Requested Items -->
+                            <div class="box-body-scroll">
+                                <!-- Core Metrics Grid: Capital, Currency, Population, Languages -->
+                                <div class="box-metrics-grid">
+                                    <div class="box-metric-card">
+                                        <div class="metric-icon"><i class="fa-solid fa-landmark"></i></div>
+                                        <div class="metric-content">
+                                            <span class="metric-label">Capital</span>
+                                            <strong id="box-capital" class="metric-val">-</strong>
+                                        </div>
+                                    </div>
+
+                                    <div class="box-metric-card">
+                                        <div class="metric-icon"><i class="fa-solid fa-coins"></i></div>
+                                        <div class="metric-content">
+                                            <span class="metric-label">Currency</span>
+                                            <strong id="box-currency" class="metric-val">-</strong>
+                                        </div>
+                                    </div>
+
+                                    <div class="box-metric-card">
+                                        <div class="metric-icon"><i class="fa-solid fa-users"></i></div>
+                                        <div class="metric-content">
+                                            <span class="metric-label">Population</span>
+                                            <strong id="box-population" class="metric-val">-</strong>
+                                        </div>
+                                    </div>
+
+                                    <div class="box-metric-card">
+                                        <div class="metric-icon"><i class="fa-solid fa-comments"></i></div>
+                                        <div class="metric-content">
+                                            <span class="metric-label">Languages Spoken</span>
+                                            <strong id="box-languages" class="metric-val">-</strong>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Popular Cities -->
+                                <div class="box-section-group">
+                                    <div class="section-title">
+                                        <i class="fa-solid fa-city"></i>
+                                        <span>Popular Cities</span>
+                                    </div>
+                                    <div id="box-popular-cities" class="box-city-tags">
+                                        <!-- Populated via JS -->
+                                    </div>
+                                </div>
+
+                                <!-- Famous For -->
+                                <div class="box-section-group">
+                                    <div class="section-title">
+                                        <i class="fa-solid fa-star"></i>
+                                        <span>Famous For</span>
+                                    </div>
+                                    <p id="box-famous-for" class="box-text-content">-</p>
+                                </div>
+
+                                <!-- Tourists -->
+                                <div class="box-section-group">
+                                    <div class="section-title">
+                                        <i class="fa-solid fa-plane-departure"></i>
+                                        <span>Tourists & Attractions</span>
+                                    </div>
+                                    <p id="box-tourists" class="box-text-content">-</p>
+                                </div>
+
+                                <!-- Must Know (Cultural Etiquette & Tips) -->
+                                <div class="box-callout must-know-callout">
+                                    <div class="callout-header">
+                                        <i class="fa-solid fa-lightbulb"></i>
+                                        <span>Must Know (Culture & Etiquette)</span>
+                                    </div>
+                                    <p id="box-must-know" class="callout-text">-</p>
+                                </div>
+
+                                <!-- Fun Fact -->
+                                <div class="box-callout fun-fact-callout">
+                                    <div class="callout-header">
+                                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                        <span>Fun Fact</span>
+                                    </div>
+                                    <p id="box-fun-fact" class="callout-text">-</p>
+                                </div>
+                            </div>
+
+                            <!-- Box Footer: Deep Dive Button -->
+                            <div class="box-footer">
+                                <button id="btn-box-deep-dive" class="btn-box-deep-dive">
+                                    <span>Explore Full Culture & Photo Gallery</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Sliding Cinematic Detail Panel -->
+                <aside id="detail-panel" class="detail-panel">
+                    <!-- Country Tabs Bar -->
+                    <div class="panel-country-tabs-bar" id="panel-country-tabs-bar">
+                        <!-- Dynamic tabs populated via JS -->
+                    </div>
+
+                    <!-- Close button -->
+                    <button id="btn-close-panel" class="btn-close-panel" title="Close Panel">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+
+                    <!-- Main Scrollable Panel Content -->
+                    <div class="panel-content-scroll" id="panel-content-scroll">
+                        <!-- Hero Section -->
+                        <div class="panel-hero" id="panel-hero-bg">
+                            <div class="panel-hero-overlay"></div>
+                            <div class="panel-hero-text">
+                                <span class="country-continent" id="panel-country-continent">Continent</span>
+                                <h2 class="country-name-title" id="panel-country-name">Country Name</h2>
+                                <p class="country-capital-sub" id="panel-country-capital-sub">Capital: City</p>
+                            </div>
+                        </div>
+
+                        <!-- Sticky Detail Tabs -->
+                        <div class="panel-tabs-bar">
+                            <button class="panel-tab-btn active" data-tab="tab-identity">Profile</button>
+                            <button class="panel-tab-btn" data-tab="tab-culture">Culture</button>
+                            <button class="panel-tab-btn" data-tab="tab-food">Cuisine</button>
+                            <button class="panel-tab-btn" data-tab="tab-heritage">Attire & Places</button>
+                            <button class="panel-tab-btn" data-tab="tab-timeline">Timeline</button>
+                        </div>
+
+                        <!-- Tab Content Containers -->
+                        <div class="panel-body">
+                            
+                            <!-- TAB 1: Profile & Core Facts -->
+                            <div id="tab-identity" class="tab-pane active">
+                                <div class="identity-grid">
+                                    <div class="identity-card">
+                                        <i class="fa-solid fa-landmark"></i>
+                                        <div class="id-val" id="id-capital">-</div>
+                                        <div class="id-label">Capital</div>
+                                    </div>
+                                    <div class="identity-card">
+                                        <i class="fa-solid fa-users"></i>
+                                        <div class="id-val" id="id-population">-</div>
+                                        <div class="id-label">Population</div>
+                                    </div>
+                                    <div class="identity-card">
+                                        <i class="fa-solid fa-coins"></i>
+                                        <div class="id-val" id="id-currency">-</div>
+                                        <div class="id-label">Currency</div>
+                                    </div>
+                                    <div class="identity-card">
+                                        <i class="fa-solid fa-comments"></i>
+                                        <div class="id-val" id="id-languages">-</div>
+                                        <div class="id-label">Languages</div>
+                                    </div>
+                                </div>
+
+                                <!-- Popular Cities Section in Panel -->
+                                <div class="section-card">
+                                    <h3><i class="fa-solid fa-city"></i> Popular Cities</h3>
+                                    <div id="panel-popular-cities-list" class="box-city-tags"></div>
+                                </div>
+
+                                <!-- Famous For Section in Panel -->
+                                <div class="section-card">
+                                    <h3><i class="fa-solid fa-star"></i> Famous For</h3>
+                                    <p id="panel-famous-for-text" class="card-p">-</p>
+                                </div>
+
+                                <!-- Tourism in Panel -->
+                                <div class="section-card">
+                                    <h3><i class="fa-solid fa-plane-departure"></i> Tourism & Visitors</h3>
+                                    <p id="panel-tourists-text" class="card-p">-</p>
+                                </div>
+
+                                <!-- Must Know Section -->
+                                <div class="section-card must-know-panel-card">
+                                    <h3><i class="fa-solid fa-lightbulb"></i> Must Know (Cultural Etiquette)</h3>
+                                    <p id="panel-must-know-text" class="card-p">-</p>
+                                </div>
+
+                                <!-- Fun Fact Section -->
+                                <div class="section-card fun-fact-panel-card">
+                                    <h3><i class="fa-solid fa-wand-magic-sparkles"></i> Fun Fact</h3>
+                                    <p id="panel-fun-fact-text" class="card-p">-</p>
+                                </div>
+
+                                <!-- Geography Info Section -->
+                                <div class="section-card geography-card">
+                                    <h3><i class="fa-solid fa-mountain-sun"></i> Geography & Terrain</h3>
+                                    <div class="geo-sub-grid">
+                                        <div>
+                                            <span class="geo-label">Mountains & Peaks:</span>
+                                            <p id="geo-mountains">-</p>
+                                        </div>
+                                        <div>
+                                            <span class="geo-label">Rivers & Waters:</span>
+                                            <p id="geo-rivers">-</p>
+                                        </div>
+                                    </div>
+                                    <div class="geo-text-block">
+                                        <span class="geo-label">Climate & Landscapes:</span>
+                                        <p id="geo-climate">-</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- TAB 2: Culture & Traditions -->
+                            <div id="tab-culture" class="tab-pane">
+                                <div class="culture-cards-container" id="culture-cards-list">
+                                    <!-- Dynamic Culture Cards -->
+                                </div>
+                            </div>
+
+                            <!-- TAB 3: Food & Cuisine -->
+                            <div id="tab-food" class="tab-pane">
+                                <p class="tab-intro">Discover the signature flavours and traditional culinary dishes defining this country's dining table.</p>
+                                <div class="food-cards-grid" id="food-cards-list">
+                                    <!-- Dynamic Food Cards -->
+                                </div>
+                            </div>
+
+                            <!-- TAB 4: Heritage & Photo Gallery -->
+                            <div id="tab-heritage" class="tab-pane">
+                                <!-- Traditional Clothing -->
+                                <div class="clothing-showcase section-card">
+                                    <h3><i class="fa-solid fa-shirt"></i> Traditional Attire</h3>
+                                    <div class="clothing-content">
+                                        <div class="clothing-image-container">
+                                            <img id="clothing-img" src="" alt="Traditional Attire">
+                                        </div>
+                                        <div class="clothing-details">
+                                            <h4 id="clothing-title">-</h4>
+                                            <p id="clothing-desc">-</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Festivals -->
+                                <div class="festivals-showcase section-card">
+                                    <h3><i class="fa-solid fa-calendar-days"></i> Notable Festivals</h3>
+                                    <div class="festivals-list" id="festivals-list-container">
+                                        <!-- Dynamic Festivals list -->
+                                    </div>
+                                </div>
+
+                                <!-- Famous Places -->
+                                <div class="famous-places-showcase section-card">
+                                    <h3><i class="fa-solid fa-camera"></i> Famous Places & Landmarks</h3>
+                                    <div class="places-grid" id="famous-places-container">
+                                        <!-- Dynamic Places list -->
+                                    </div>
+                                </div>
+
+                                <!-- Dynamic Carousel Photo Gallery -->
+                                <div class="gallery-showcase section-card">
+                                    <h3><i class="fa-solid fa-photo-film"></i> Photo Gallery</h3>
+                                    <!-- Swiper -->
+                                    <div class="swiper-container mySwiper">
+                                        <div class="swiper-wrapper" id="panel-gallery-wrapper">
+                                            <!-- Dynamic Swiper Slides -->
+                                        </div>
+                                        <!-- Add Pagination -->
+                                        <div class="swiper-pagination"></div>
+                                        <!-- Add Navigation -->
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- TAB 5: Cultural Timeline -->
+                            <div id="tab-timeline" class="tab-pane">
+                                <p class="tab-intro">Progress through the core historical epochs that shaped this nation's cultural path.</p>
+                                <div class="timeline-container" id="timeline-flow-list">
+                                    <!-- Dynamic Timeline Elements -->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- 3. PHOTO EXPLORER VIEW -->
+        <section id="view-photos" class="app-view">
+            <header class="main-nav-header">
+                <div class="logo-group" id="logo-home-2">
+                    <i class="fa-solid fa-compass logo-icon"></i>
+                    <span class="logo-text">ATLAS ODYSSEY</span>
+                </div>
+                <nav class="nav-links">
+                    <button id="btn-nav-map-2" class="nav-btn">
+                        <i class="fa-solid fa-map-location-dot"></i> Map Explorer
+                    </button>
+                    <button id="btn-nav-photos-2" class="nav-btn active">
+                        <i class="fa-solid fa-images"></i> Photo Explorer
+                    </button>
+                </nav>
+                <div class="header-actions">
+                    <button id="btn-open-compare-2" class="btn-secondary">
+                        <i class="fa-solid fa-scale-balanced"></i> Compare Scale
+                    </button>
+                </div>
+            </header>
+
+            <div class="gallery-explorer-container">
+                <div class="gallery-hero">
+                    <h1>Global Photo Wall</h1>
+                    <p>Wander through the visual snapshots of nature, cities, festivals, food, and clothing across 180+ sovereign lands.</p>
+                </div>
+
+                <!-- Gallery Category Filters -->
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All Photos</button>
+                    <button class="filter-btn" data-filter="cities">Cities & Architecture</button>
+                    <button class="filter-btn" data-filter="nature">Nature & Landscapes</button>
+                    <button class="filter-btn" data-filter="food">Cuisine & Food</button>
+                    <button class="filter-btn" data-filter="festivals">Culture & Festivals</button>
+                </div>
+
+                <!-- Masonry Grid Container -->
+                <div class="masonry-grid" id="masonry-photo-grid">
+                    <!-- Dynamic Grid Items -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 4. COMPARE SCALE MODAL -->
+    <div id="compare-modal" class="modal-overlay">
+        <div class="modal-card">
+            <header class="modal-header">
+                <h3><i class="fa-solid fa-scale-balanced"></i> Country Scale Comparer</h3>
+                <button id="btn-close-compare" class="btn-close-modal"><i class="fa-solid fa-xmark"></i></button>
+            </header>
+            
+            <div class="modal-body">
+                <p class="compare-intro-text">Select any two countries to visualize and compare their core metrics dynamically.</p>
+                
+                <div class="comparison-selectors">
+                    <div class="country-picker">
+                        <label for="country-select-1">Country A</label>
+                        <select id="country-select-1" class="custom-select">
+                            <option value="">Choose Country...</option>
+                            <!-- Options added dynamically -->
+                        </select>
+                    </div>
+                    
+                    <div class="compare-divider-vs">VS</div>
+                    
+                    <div class="country-picker">
+                        <label for="country-select-2">Country B</label>
+                        <select id="country-select-2" class="custom-select">
+                            <option value="">Choose Country...</option>
+                            <!-- Options added dynamically -->
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Comparisons Visualizer -->
+                <div id="comparison-results" class="comparison-results hide">
+                    <!-- Stat Bar: Population -->
+                    <div class="compare-stat-row">
+                        <div class="compare-stat-label">
+                            <span>Population</span>
+                            <span class="stat-unit">people</span>
+                        </div>
+                        <div class="compare-bars">
+                            <div class="compare-val-a" id="val-pop-a">0</div>
+                            <div class="bar-container">
+                                <div class="bar-fill fill-a" id="bar-pop-a" style="width: 0%"></div>
+                                <div class="bar-fill fill-b" id="bar-pop-b" style="width: 0%"></div>
+                            </div>
+                            <div class="compare-val-b" id="val-pop-b">0</div>
+                        </div>
+                    </div>
+
+                    <!-- Stat Bar: Languages Count -->
+                    <div class="compare-stat-row">
+                        <div class="compare-stat-label">
+                            <span>Languages Spoken</span>
+                            <span class="stat-unit">count</span>
+                        </div>
+                        <div class="compare-bars">
+                            <div class="compare-val-a" id="val-lang-a">0</div>
+                            <div class="bar-container">
+                                <div class="bar-fill fill-a" id="bar-lang-a" style="width: 0%"></div>
+                                <div class="bar-fill fill-b" id="bar-lang-b" style="width: 0%"></div>
+                            </div>
+                            <div class="compare-val-b" id="val-lang-b">0</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="compare-placeholder" class="compare-placeholder">
+                    <i class="fa-solid fa-chart-bar compare-place-icon"></i>
+                    <p>Select two countries to view visual comparisons.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Global Image Lightbox -->
+    <div id="image-lightbox" class="lightbox-overlay">
+        <button class="lightbox-close"><i class="fa-solid fa-xmark"></i></button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Zoomed View">
+            <div class="lightbox-caption" id="lightbox-caption">Caption text</div>
+        </div>
+    </div>
+
+    <!-- Three.js for Aesthetic 3D Globe -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- Leaflet.js script -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    
+    <!-- Swiper.js script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- GSAP script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    
+    <!-- Custom Scripts -->
+    <script src="{{ url_for('static', filename='js/globe.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/panel.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/compare.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/gallery.js') }}"></script>
+</body>
+</html>

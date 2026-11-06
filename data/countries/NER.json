@@ -1,0 +1,108 @@
+{
+  "id": "NER",
+  "name": "Niger",
+  "capital": "Niamey",
+  "currency": "West African CFA (XOF)",
+  "population": "26.2M",
+  "popular_cities": [
+    "Niamey",
+    "Zinder",
+    "Maradi",
+    "Agadez"
+  ],
+  "languages": [
+    "French",
+    "Hausa",
+    "Zarma"
+  ],
+  "famous_for": "Historic mud-brick Grand Mosque of Agadez (UNESCO gate to the Sahara), W National Park wildlife, and Wodaabe Gerewol dance.",
+  "tourists": "Approx. 150,000 visitors; famous for Agadez clay minaret, Aïr Mountains rock art, and West African giraffe sanctuaries in Kouré.",
+  "flag": "🇳🇪",
+  "flag_svg": "https://flagcdn.com/w320/ne.png",
+  "must_know": "The Gerewol festival is an ancient male beauty pageant where young Wodaabe men wear face paint and perform singing dances.",
+  "fun_fact": "The Grand Mosque of Agadez is the tallest mud-brick structure in the world, standing 27 meters high since 1515.",
+  "continent": "Africa",
+  "lat": 17.61,
+  "lng": 8.08,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 3,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of Niger",
+    "rivers": "Major waterways, coastal shores, and river basins of Niger",
+    "climate": "Regional climate with distinct seasonal variations across Niger",
+    "terrain": "Scenic diverse landscapes defining the beauty of Niger"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across Niger.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in Niger.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in Niger.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Djerma Stew with Millet Couscous",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across Niger.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout Niger.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Tuareg Tagelmust Indigo Turban",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in Niger.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "Gerewol Male Charm Festival",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Agadez Mud Mosque & Sahara",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to Niger.",
+      "image": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of Niger."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "The Grand Mosque of Agadez is the tallest mud-brick structure in the world, standing 27 meters high since 1515.",
+    "The Gerewol festival is an ancient male beauty pageant where young Wodaabe men wear face paint and perform singing dances.",
+    "Famous for Historic mud-brick Grand Mosque of Agadez (UNESCO gate to the Sahara), W National Park wildlife, and Wodaabe Gerewol dance."
+  ]
+}

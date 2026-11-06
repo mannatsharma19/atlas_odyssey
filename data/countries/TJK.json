@@ -1,0 +1,106 @@
+{
+  "id": "TJK",
+  "name": "Tajikistan",
+  "capital": "Dushanbe",
+  "currency": "Tajikistani Somoni (TJS)",
+  "population": "10.0M",
+  "popular_cities": [
+    "Dushanbe",
+    "Khujand",
+    "Kulob",
+    "Khorog"
+  ],
+  "languages": [
+    "Tajik (Persian dialect)"
+  ],
+  "famous_for": "The Pamir Highway ('Roof of the World' road trip), crystal turquoise lakes of the Fann Mountains, and Silk Road citadels.",
+  "tourists": "Over 1.0M adventure travelers; famous for Pamir Highway (M41), Iskanderkul alpine lake, and Wakhan Corridor petroglyphs.",
+  "flag": "🇹🇯",
+  "flag_svg": "https://flagcdn.com/w320/tj.png",
+  "must_know": "Over 93% of Tajikistan's total territory is mountainous, with more than half the country sitting above 3,000 meters altitude.",
+  "fun_fact": "The Pamir Highway is the second-highest international highway in the world, cresting the Ak-Baital Pass at 4,655 meters altitude.",
+  "continent": "Asia",
+  "lat": 38.86,
+  "lng": 71.27,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 1,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of Tajikistan",
+    "rivers": "Major waterways, coastal shores, and river basins of Tajikistan",
+    "climate": "Regional climate with distinct seasonal variations across Tajikistan",
+    "terrain": "Scenic diverse landscapes defining the beauty of Tajikistan"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across Tajikistan.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in Tajikistan.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in Tajikistan.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Osh Plov & Qurutob Flatbread Salad",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across Tajikistan.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout Tajikistan.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Chapan Velvet Robe & Toki Cap",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in Tajikistan.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "Navruz Persian New Year on the Pamirs",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Pamir Highway & Fann Mountains",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to Tajikistan.",
+      "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of Tajikistan."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "The Pamir Highway is the second-highest international highway in the world, cresting the Ak-Baital Pass at 4,655 meters altitude.",
+    "Over 93% of Tajikistan's total territory is mountainous, with more than half the country sitting above 3,000 meters altitude.",
+    "Famous for The Pamir Highway ('Roof of the World' road trip), crystal turquoise lakes of the Fann Mountains, and Silk Road citadels."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "VNM",
+  "name": "Vietnam",
+  "capital": "Hanoi",
+  "currency": "Vietnamese Đồng (VND)",
+  "population": "98.8M",
+  "popular_cities": [
+    "Hanoi",
+    "Ho Chi Minh City",
+    "Da Nang",
+    "Hoi An",
+    "Hue"
+  ],
+  "languages": [
+    "Vietnamese"
+  ],
+  "famous_for": "Emerald waters of Ha Long Bay, lantern-lit ancient streets of Hoi An, Pho noodle soup, floating Mekong delta markets, and Ao Dai gowns.",
+  "tourists": "Over 12.6M international visitors; famous for Ha Long Bay junk boats, Golden Bridge in Ba Na Hills, and Son Doong (largest cave on Earth).",
+  "flag": "🇻🇳",
+  "flag_svg": "https://flagcdn.com/w320/vn.png",
+  "must_know": "Crossing the street amidst swarms of scooters requires walking at a steady, predictable pace so riders can smoothly maneuver around you.",
+  "fun_fact": "Son Doong Cave in Phong Nha-Ke Bang is the largest natural cave on Earth, large enough to house an entire 40-story city skyscraper block.",
+  "continent": "Asia",
+  "lat": 14.06,
+  "lng": 108.28,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 1,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of Vietnam",
+    "rivers": "Major waterways, coastal shores, and river basins of Vietnam",
+    "climate": "Regional climate with distinct seasonal variations across Vietnam",
+    "terrain": "Scenic diverse landscapes defining the beauty of Vietnam"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across Vietnam.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in Vietnam.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in Vietnam.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Phở Bo, Bánh Mì & Egg Coffee",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across Vietnam.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout Vietnam.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Áo Dài Flowing Silk Tunic & Nón Lá Hat",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in Vietnam.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "Tết (Vietnamese Lunar New Year)",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Ha Long Bay & Hoi An Ancient Town",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to Vietnam.",
+      "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of Vietnam."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "Son Doong Cave in Phong Nha-Ke Bang is the largest natural cave on Earth, large enough to house an entire 40-story city skyscraper block.",
+    "Crossing the street amidst swarms of scooters requires walking at a steady, predictable pace so riders can smoothly maneuver around you.",
+    "Famous for Emerald waters of Ha Long Bay, lantern-lit ancient streets of Hoi An, Pho noodle soup, floating Mekong delta markets, and Ao Dai gowns."
+  ]
+}

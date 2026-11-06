@@ -1,0 +1,106 @@
+{
+  "id": "NLD",
+  "name": "Netherlands",
+  "capital": "Amsterdam",
+  "currency": "Euro (EUR)",
+  "population": "17.9M",
+  "popular_cities": [
+    "Amsterdam",
+    "Rotterdam",
+    "The Hague",
+    "Utrecht"
+  ],
+  "languages": [
+    "Dutch"
+  ],
+  "famous_for": "Amsterdam UNESCO canal rings, Keukenhof tulip gardens, historic windmills of Kinderdijk, bicycle paths, and Rembrandt art.",
+  "tourists": "Over 20.3M international tourists annually; famous for Van Gogh Museum, Anne Frank House, and Rijksmuseum.",
+  "flag": "🇳🇱",
+  "flag_svg": "https://flagcdn.com/w320/nl.png",
+  "must_know": "Directness is considered honest and respectful, not rude; bicycles always have the right of way on dedicated bike paths.",
+  "fun_fact": "Roughly one-third of the Netherlands lies below sea level, protected by the Delta Works engineering marvel.",
+  "continent": "Europe",
+  "lat": 52.13,
+  "lng": 5.29,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 1,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of Netherlands",
+    "rivers": "Major waterways, coastal shores, and river basins of Netherlands",
+    "climate": "Regional climate with distinct seasonal variations across Netherlands",
+    "terrain": "Scenic diverse landscapes defining the beauty of Netherlands"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across Netherlands.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in Netherlands.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in Netherlands.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Stroopwafel, Herring & Bitterballen",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across Netherlands.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout Netherlands.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Klederdracht with Wooden Klompen Clogs",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in Netherlands.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "King's Day (Koningsdag Orange Party)",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Amsterdam Canals & Keukenhof",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to Netherlands.",
+      "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of Netherlands."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "Roughly one-third of the Netherlands lies below sea level, protected by the Delta Works engineering marvel.",
+    "Directness is considered honest and respectful, not rude; bicycles always have the right of way on dedicated bike paths.",
+    "Famous for Amsterdam UNESCO canal rings, Keukenhof tulip gardens, historic windmills of Kinderdijk, bicycle paths, and Rembrandt art."
+  ]
+}

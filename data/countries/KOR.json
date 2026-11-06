@@ -1,0 +1,107 @@
+{
+  "id": "KOR",
+  "name": "South Korea",
+  "capital": "Seoul",
+  "currency": "South Korean Won (KRW)",
+  "population": "51.7M",
+  "popular_cities": [
+    "Seoul",
+    "Busan",
+    "Incheon",
+    "Daegu",
+    "Jeju Island"
+  ],
+  "languages": [
+    "Korean"
+  ],
+  "famous_for": "K-Pop (BTS, Blackpink), K-Dramas, Samsung high-tech innovation, Kimchi, Hanok heritage villages, and Korean BBQ.",
+  "tourists": "Over 17.5M tourists annually; famous for Gyeongbokgung Palace, Bukchon Hanok Village, Jeju volcanic waterfalls, and Myeongdong.",
+  "flag": "🇰🇷",
+  "flag_svg": "https://flagcdn.com/w320/kr.png",
+  "must_know": "Bowing is customary; always use both hands when pouring drinks or handing payment to an elder as a deep sign of respect.",
+  "fun_fact": "South Korea has the world's fastest average internet speeds and was the first country to deploy commercial 5G mobile networks nationwide.",
+  "continent": "Asia",
+  "lat": 35.91,
+  "lng": 127.77,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 1,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of South Korea",
+    "rivers": "Major waterways, coastal shores, and river basins of South Korea",
+    "climate": "Regional climate with distinct seasonal variations across South Korea",
+    "terrain": "Scenic diverse landscapes defining the beauty of South Korea"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across South Korea.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in South Korea.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in South Korea.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Kimchi, Bibimbap & Korean BBQ",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across South Korea.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout South Korea.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Hanbok Silk Traditional Dress",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in South Korea.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "Chuseok Autumn Harvest Festival",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Gyeongbokgung Palace & Jeju",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to South Korea.",
+      "image": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of South Korea."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "South Korea has the world's fastest average internet speeds and was the first country to deploy commercial 5G mobile networks nationwide.",
+    "Bowing is customary; always use both hands when pouring drinks or handing payment to an elder as a deep sign of respect.",
+    "Famous for K-Pop (BTS, Blackpink), K-Dramas, Samsung high-tech innovation, Kimchi, Hanok heritage villages, and Korean BBQ."
+  ]
+}

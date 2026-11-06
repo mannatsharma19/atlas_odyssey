@@ -1,0 +1,108 @@
+{
+  "id": "IRL",
+  "name": "Ireland",
+  "capital": "Dublin",
+  "currency": "Euro (EUR)",
+  "population": "5.1M",
+  "popular_cities": [
+    "Dublin",
+    "Cork",
+    "Galway",
+    "Limerick",
+    "Kilkenny"
+  ],
+  "languages": [
+    "Irish (Gaeilge)",
+    "English"
+  ],
+  "famous_for": "Emerald green landscapes, Cliffs of Moher, Guinness stout brewing, traditional fiddle music pub sessions, and literary heritage.",
+  "tourists": "Over 11.2M visitors; highlights include Ring of Kerry, Trinity College Long Room Library, and Giant's Causeway in nearby north.",
+  "flag": "🇮🇪",
+  "flag_svg": "https://flagcdn.com/w320/ie.png",
+  "must_know": "'Craic' is the quintessential Irish concept meaning fun, entertainment, conversation, gossip, and great company.",
+  "fun_fact": "St. Patrick's Day on March 17 is celebrated in more countries across the world than any other national holiday.",
+  "continent": "Europe",
+  "lat": 53.14,
+  "lng": -7.69,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 2,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of Ireland",
+    "rivers": "Major waterways, coastal shores, and river basins of Ireland",
+    "climate": "Regional climate with distinct seasonal variations across Ireland",
+    "terrain": "Scenic diverse landscapes defining the beauty of Ireland"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across Ireland.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in Ireland.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in Ireland.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Irish Stew & Soda Bread",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across Ireland.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout Ireland.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Aran Wool Knit Cable Sweater",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in Ireland.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "St. Patrick's Day Festival",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Cliffs of Moher & Temple Bar",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to Ireland.",
+      "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of Ireland."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "St. Patrick's Day on March 17 is celebrated in more countries across the world than any other national holiday.",
+    "'Craic' is the quintessential Irish concept meaning fun, entertainment, conversation, gossip, and great company.",
+    "Famous for Emerald green landscapes, Cliffs of Moher, Guinness stout brewing, traditional fiddle music pub sessions, and literary heritage."
+  ]
+}

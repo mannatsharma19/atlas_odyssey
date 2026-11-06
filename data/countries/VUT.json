@@ -1,0 +1,106 @@
+{
+  "id": "VUT",
+  "name": "Vanuatu",
+  "capital": "Port Vila",
+  "currency": "Vanuatu Vatu (VUV)",
+  "population": "320,000",
+  "popular_cities": [
+    "Port Vila",
+    "Luganville"
+  ],
+  "languages": [
+    "Bislama",
+    "English",
+    "French"
+  ],
+  "famous_for": "Mount Yasur accessible bubbling active volcano on Tanna, ancient land diving (ancestor of bungee jumping), and crystal blue holes of Espiritu Santo.",
+  "tourists": "Over 120,000 visitors; famous for Mount Yasur volcano crater edge walks, Champagne Beach, and Million Dollar Point dive.",
+  "flag": "🇻🇺",
+  "flag_svg": "https://flagcdn.com/w320/vu.png",
+  "must_know": "The land diving ritual (Naghol) on Pentecost Island inspired modern bungee jumping: men leap from 30-meter wooden towers with only vines tied to ankles.",
+  "fun_fact": "Mount Yasur on Tanna island has been erupting continuously for over 800 years, dubbed the 'Lighthouse of the Pacific' by Captain Cook.",
+  "continent": "Oceania",
+  "lat": -15.38,
+  "lng": 166.96,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 3,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of Vanuatu",
+    "rivers": "Major waterways, coastal shores, and river basins of Vanuatu",
+    "climate": "Regional climate with distinct seasonal variations across Vanuatu",
+    "terrain": "Scenic diverse landscapes defining the beauty of Vanuatu"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across Vanuatu.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in Vanuatu.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in Vanuatu.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Laplap (Grated Root Yam Cake)",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across Vanuatu.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout Vanuatu.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Kelim Woven Grass Skirt & Bark Belts",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in Vanuatu.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "Naghol Pentecost Land Diving Rite",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Mount Yasur Active Volcano",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to Vanuatu.",
+      "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of Vanuatu."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "Mount Yasur on Tanna island has been erupting continuously for over 800 years, dubbed the 'Lighthouse of the Pacific' by Captain Cook.",
+    "The land diving ritual (Naghol) on Pentecost Island inspired modern bungee jumping: men leap from 30-meter wooden towers with only vines tied to ankles.",
+    "Famous for Mount Yasur accessible bubbling active volcano on Tanna, ancient land diving (ancestor of bungee jumping), and crystal blue holes of Espiritu Santo."
+  ]
+}

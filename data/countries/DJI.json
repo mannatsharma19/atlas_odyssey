@@ -1,0 +1,108 @@
+{
+  "id": "DJI",
+  "name": "Djibouti",
+  "capital": "Djibouti City",
+  "currency": "Djiboutian Franc (DJF)",
+  "population": "1.1M",
+  "popular_cities": [
+    "Djibouti City",
+    "Ali Sabieh",
+    "Tadjoura"
+  ],
+  "languages": [
+    "Arabic",
+    "French",
+    "Somali",
+    "Afar"
+  ],
+  "famous_for": "Lake Assal (lowest point in Africa), swimming with whale sharks in Gulf of Tadjoura, and salt flats.",
+  "tourists": "Approx. 140,000 visitors; famous for Lake Abbé volcanic chimneys and Day Forest National Park.",
+  "flag": "🇩🇯",
+  "flag_svg": "https://flagcdn.com/w320/dj.png",
+  "must_know": "Chewing Khat in the afternoon is a customary social habit shared among men discussing community matters.",
+  "fun_fact": "Lake Assal is the lowest point in Africa (-155m) and the second-saltest body of water on Earth after Don Juan Pond.",
+  "continent": "Africa",
+  "lat": 11.83,
+  "lng": 42.59,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 4,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of Djibouti",
+    "rivers": "Major waterways, coastal shores, and river basins of Djibouti",
+    "climate": "Regional climate with distinct seasonal variations across Djibouti",
+    "terrain": "Scenic diverse landscapes defining the beauty of Djibouti"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across Djibouti.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in Djibouti.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in Djibouti.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Skoudehkaris (Lamb Stew)",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across Djibouti.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout Djibouti.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Macawiis Wrap & Dirac",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in Djibouti.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "Independence Day",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Lake Assal Salt Basin",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to Djibouti.",
+      "image": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of Djibouti."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "Lake Assal is the lowest point in Africa (-155m) and the second-saltest body of water on Earth after Don Juan Pond.",
+    "Chewing Khat in the afternoon is a customary social habit shared among men discussing community matters.",
+    "Famous for Lake Assal (lowest point in Africa), swimming with whale sharks in Gulf of Tadjoura, and salt flats."
+  ]
+}

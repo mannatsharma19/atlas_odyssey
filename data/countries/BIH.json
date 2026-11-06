@@ -1,0 +1,107 @@
+{
+  "id": "BIH",
+  "name": "Bosnia and Herzegovina",
+  "capital": "Sarajevo",
+  "currency": "Convertible Mark (BAM)",
+  "population": "3.2M",
+  "popular_cities": [
+    "Sarajevo",
+    "Mostar",
+    "Banja Luka"
+  ],
+  "languages": [
+    "Bosnian",
+    "Croatian",
+    "Serbian"
+  ],
+  "famous_for": "Stari Most (Old Bridge) in Mostar, historic Ottoman Baščaršija bazaar, and Balkan coffee tradition.",
+  "tourists": "Over 1.7M visitors; highlights include Kravica Waterfalls, Sarajevo Old Town, and Blagaj Tekke monastery.",
+  "flag": "🇧🇦",
+  "flag_svg": "https://flagcdn.com/w320/ba.png",
+  "must_know": "Drinking traditional Bosnian coffee (bosanska kafa) from a copper dzezva with rahat lokum is an unhurried ritual.",
+  "fun_fact": "Sarajevo was the first city in Europe to have a full-time operational electric tram network in 1885.",
+  "continent": "Europe",
+  "lat": 43.92,
+  "lng": 17.68,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 3,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of Bosnia and Herzegovina",
+    "rivers": "Major waterways, coastal shores, and river basins of Bosnia and Herzegovina",
+    "climate": "Regional climate with distinct seasonal variations across Bosnia and Herzegovina",
+    "terrain": "Scenic diverse landscapes defining the beauty of Bosnia and Herzegovina"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across Bosnia and Herzegovina.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in Bosnia and Herzegovina.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in Bosnia and Herzegovina.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Ćevapi & Burek",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across Bosnia and Herzegovina.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout Bosnia and Herzegovina.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Folk Jelek Vest",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in Bosnia and Herzegovina.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "Sarajevo Film Festival",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Mostar Old Bridge",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to Bosnia and Herzegovina.",
+      "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of Bosnia and Herzegovina."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "Sarajevo was the first city in Europe to have a full-time operational electric tram network in 1885.",
+    "Drinking traditional Bosnian coffee (bosanska kafa) from a copper dzezva with rahat lokum is an unhurried ritual.",
+    "Famous for Stari Most (Old Bridge) in Mostar, historic Ottoman Baščaršija bazaar, and Balkan coffee tradition."
+  ]
+}

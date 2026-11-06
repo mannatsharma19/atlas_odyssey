@@ -1,0 +1,107 @@
+{
+  "id": "GRL",
+  "name": "Greenland",
+  "capital": "Nuuk",
+  "currency": "Danish Krone (DKK)",
+  "population": "56,600",
+  "popular_cities": [
+    "Nuuk",
+    "Ilulissat",
+    "Sisimiut",
+    "Qaqortoq"
+  ],
+  "languages": [
+    "Greenlandic (Kalaallisut)",
+    "Danish"
+  ],
+  "famous_for": "Ilulissat Icefjord (birthplace of Titanic icebergs), dog sledding, Northern Lights, Midnight Sun, and Inuit culture.",
+  "tourists": "Over 100,000 visitors annually; famous for UNESCO Ilulissat Icefjord, Disko Bay whale safaris, and Nuuk fjord.",
+  "flag": "🇬🇱",
+  "flag_svg": "https://flagcdn.com/w320/gl.png",
+  "must_know": "Greenland is an autonomous territory within the Kingdom of Denmark and the world's largest non-continental island.",
+  "fun_fact": "Roughly 80% of Greenland's massive land surface is covered by a permanent ice sheet up to 3 kilometers thick.",
+  "continent": "North America",
+  "lat": 71.71,
+  "lng": -42.6,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 2,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of Greenland",
+    "rivers": "Major waterways, coastal shores, and river basins of Greenland",
+    "climate": "Regional climate with distinct seasonal variations across Greenland",
+    "terrain": "Scenic diverse landscapes defining the beauty of Greenland"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across Greenland.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in Greenland.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in Greenland.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Suaasat (Traditional Seal Soup)",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across Greenland.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout Greenland.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Kalaallisuut Beaded Folk Costume",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in Greenland.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "National Day (Ullortuneq)",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Ilulissat Icefjord",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to Greenland.",
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of Greenland."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "Roughly 80% of Greenland's massive land surface is covered by a permanent ice sheet up to 3 kilometers thick.",
+    "Greenland is an autonomous territory within the Kingdom of Denmark and the world's largest non-continental island.",
+    "Famous for Ilulissat Icefjord (birthplace of Titanic icebergs), dog sledding, Northern Lights, Midnight Sun, and Inuit culture."
+  ]
+}

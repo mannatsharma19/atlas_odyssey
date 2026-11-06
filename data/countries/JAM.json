@@ -1,0 +1,107 @@
+{
+  "id": "JAM",
+  "name": "Jamaica",
+  "capital": "Kingston",
+  "currency": "Jamaican Dollar (JMD)",
+  "population": "2.8M",
+  "popular_cities": [
+    "Kingston",
+    "Montego Bay",
+    "Ocho Rios",
+    "Negril"
+  ],
+  "languages": [
+    "English",
+    "Jamaican Patois"
+  ],
+  "famous_for": "Birthplace of Reggae music (Bob Marley), Blue Mountain specialty coffee, fiery Jerk chicken, and Seven Mile Beach in Negril.",
+  "tourists": "Over 4.1M tourists annually; famous for Dunn's River Falls, Bob Marley Museum, and Doctor's Cave Beach.",
+  "flag": "🇯🇲",
+  "flag_svg": "https://flagcdn.com/w320/jm.png",
+  "must_know": "'One Love' and 'No Problem, Mon' encapsulate the relaxed, welcoming, and deeply resilient Rastafarian-influenced spirit.",
+  "fun_fact": "Jamaica was the first Caribbean nation to produce commercial rum and continues to make world-renowned pot-still rums.",
+  "continent": "North America",
+  "lat": 18.11,
+  "lng": -77.3,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 2,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of Jamaica",
+    "rivers": "Major waterways, coastal shores, and river basins of Jamaica",
+    "climate": "Regional climate with distinct seasonal variations across Jamaica",
+    "terrain": "Scenic diverse landscapes defining the beauty of Jamaica"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across Jamaica.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in Jamaica.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in Jamaica.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Jerk Chicken with Rice and Peas",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across Jamaica.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout Jamaica.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Rastafarian Tam & Mesh Marina",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in Jamaica.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "Reggae Sumfest in Montego Bay",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Dunn's River Falls & Negril",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to Jamaica.",
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of Jamaica."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "Jamaica was the first Caribbean nation to produce commercial rum and continues to make world-renowned pot-still rums.",
+    "'One Love' and 'No Problem, Mon' encapsulate the relaxed, welcoming, and deeply resilient Rastafarian-influenced spirit.",
+    "Famous for Birthplace of Reggae music (Bob Marley), Blue Mountain specialty coffee, fiery Jerk chicken, and Seven Mile Beach in Negril."
+  ]
+}

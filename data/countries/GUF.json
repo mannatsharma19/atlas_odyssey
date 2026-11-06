@@ -1,0 +1,105 @@
+{
+  "id": "GUF",
+  "name": "French Guiana",
+  "capital": "Cayenne",
+  "currency": "Euro (EUR)",
+  "population": "300,000",
+  "popular_cities": [
+    "Cayenne",
+    "Kourou",
+    "Saint-Laurent-du-Maroni"
+  ],
+  "languages": [
+    "French"
+  ],
+  "famous_for": "Guiana Space Centre (Europe's spaceport in Kourou), pristine Amazonian rainforest, and Devil's Island penal colony.",
+  "tourists": "Approx. 120,000 visitors; famous for watching Ariane rocket launches, Îles du Salut, and Amazon river safaris.",
+  "flag": "🇬🇫",
+  "flag_svg": "https://flagcdn.com/w320/gf.png",
+  "must_know": "As an overseas department of France, French Guiana is an integral part of the European Union and uses the Euro.",
+  "fun_fact": "The Guiana Space Centre in Kourou is ideally situated just 5 degrees north of the equator, maximizing rocket orbital velocity.",
+  "continent": "South America",
+  "lat": 3.93,
+  "lng": -53.13,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 1,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of French Guiana",
+    "rivers": "Major waterways, coastal shores, and river basins of French Guiana",
+    "climate": "Regional climate with distinct seasonal variations across French Guiana",
+    "terrain": "Scenic diverse landscapes defining the beauty of French Guiana"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across French Guiana.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in French Guiana.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in French Guiana.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Bouillon d'Awara Stew",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across French Guiana.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout French Guiana.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Traditional Creole Madras Dress",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in French Guiana.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "Cayenne Carnival of Toulouse",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Guiana Spaceport in Kourou",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to French Guiana.",
+      "image": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of French Guiana."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "The Guiana Space Centre in Kourou is ideally situated just 5 degrees north of the equator, maximizing rocket orbital velocity.",
+    "As an overseas department of France, French Guiana is an integral part of the European Union and uses the Euro.",
+    "Famous for Guiana Space Centre (Europe's spaceport in Kourou), pristine Amazonian rainforest, and Devil's Island penal colony."
+  ]
+}

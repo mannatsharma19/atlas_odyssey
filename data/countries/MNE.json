@@ -1,0 +1,108 @@
+{
+  "id": "MNE",
+  "name": "Montenegro",
+  "capital": "Podgorica",
+  "currency": "Euro (EUR)",
+  "population": "620,000",
+  "popular_cities": [
+    "Podgorica",
+    "Kotor",
+    "Budva",
+    "Herceg Novi",
+    "Žabljak"
+  ],
+  "languages": [
+    "Montenegrin",
+    "Serbian"
+  ],
+  "famous_for": "Fjord-like Bay of Kotor, dramatic cliffside Ostrog Monastery, Tara River Canyon (deepest in Europe), and Sveti Stefan island.",
+  "tourists": "Over 2.6M visitors; highlights include Kotor Old Town, Durmitor National Park alpine lakes, and Budva medieval beaches.",
+  "flag": "🇲🇪",
+  "flag_svg": "https://flagcdn.com/w320/me.png",
+  "must_know": "Montenegro translates literally to 'Black Mountain', named for the dark, dense pine forests covering Mount Lovćen.",
+  "fun_fact": "The Tara River Canyon plunges up to 1,300 meters (4,265 ft) deep, making it the deepest river canyon in all of Europe.",
+  "continent": "Europe",
+  "lat": 42.71,
+  "lng": 19.37,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 2,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of Montenegro",
+    "rivers": "Major waterways, coastal shores, and river basins of Montenegro",
+    "climate": "Regional climate with distinct seasonal variations across Montenegro",
+    "terrain": "Scenic diverse landscapes defining the beauty of Montenegro"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across Montenegro.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in Montenegro.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in Montenegro.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Njeguški Pršut & Kačamak",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across Montenegro.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout Montenegro.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Montenegrin Gold-Thread Folk Vest",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in Montenegro.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "Kotor Carnival & Boka Night",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Bay of Kotor & Ostrog Monastery",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to Montenegro.",
+      "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of Montenegro."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "The Tara River Canyon plunges up to 1,300 meters (4,265 ft) deep, making it the deepest river canyon in all of Europe.",
+    "Montenegro translates literally to 'Black Mountain', named for the dark, dense pine forests covering Mount Lovćen.",
+    "Famous for Fjord-like Bay of Kotor, dramatic cliffside Ostrog Monastery, Tara River Canyon (deepest in Europe), and Sveti Stefan island."
+  ]
+}

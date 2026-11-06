@@ -1,0 +1,110 @@
+{
+  "id": "NGA",
+  "name": "Nigeria",
+  "capital": "Abuja",
+  "currency": "Nigerian Naira (NGN)",
+  "population": "223.8M",
+  "popular_cities": [
+    "Lagos",
+    "Abuja",
+    "Kano",
+    "Ibadan",
+    "Port Harcourt"
+  ],
+  "languages": [
+    "English",
+    "Hausa",
+    "Yoruba",
+    "Igbo"
+  ],
+  "famous_for": "Nollywood cinema industry (second in world by output), Afrobeats global music explosion (Burna Boy, Wizkid), and rich cultural empires.",
+  "tourists": "Over 1.5M international visitors; famous for Lekki Conservation Centre, Osun-Osogbo Sacred Grove, and Zuma Rock monolith.",
+  "flag": "🇳🇬",
+  "flag_svg": "https://flagcdn.com/w320/ng.png",
+  "must_know": "Respecting elders is paramount; greetings frequently involve slight bowing or kneeling in Yoruba and Igbo customs.",
+  "fun_fact": "Nigeria is Africa's most populous nation, home to more than 250 distinct ethnic groups speaking over 500 languages.",
+  "continent": "Africa",
+  "lat": 9.08,
+  "lng": 8.68,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 4,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of Nigeria",
+    "rivers": "Major waterways, coastal shores, and river basins of Nigeria",
+    "climate": "Regional climate with distinct seasonal variations across Nigeria",
+    "terrain": "Scenic diverse landscapes defining the beauty of Nigeria"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across Nigeria.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in Nigeria.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in Nigeria.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Jollof Rice, Pounded Yam & Egusi Soup",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across Nigeria.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout Nigeria.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Agbada Flowing Robe & Gele Headtie",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in Nigeria.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "Argungu Fishing Festival & Calabar",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Osun-Osogbo Sacred Grove",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to Nigeria.",
+      "image": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of Nigeria."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "Nigeria is Africa's most populous nation, home to more than 250 distinct ethnic groups speaking over 500 languages.",
+    "Respecting elders is paramount; greetings frequently involve slight bowing or kneeling in Yoruba and Igbo customs.",
+    "Famous for Nollywood cinema industry (second in world by output), Afrobeats global music explosion (Burna Boy, Wizkid), and rich cultural empires."
+  ]
+}

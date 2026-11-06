@@ -1,0 +1,109 @@
+{
+  "id": "MAR",
+  "name": "Morocco",
+  "capital": "Rabat",
+  "currency": "Moroccan Dirham (MAD)",
+  "population": "37.5M",
+  "popular_cities": [
+    "Rabat",
+    "Marrakech",
+    "Casablanca",
+    "Fez",
+    "Chefchaouen"
+  ],
+  "languages": [
+    "Arabic",
+    "Berber",
+    "French"
+  ],
+  "famous_for": "Jemaa el-Fnaa square in Marrakech, blue-washed streets of Chefchaouen, Sahara sand dunes of Merzouga, and aromatic Tagines.",
+  "tourists": "Over 14.5M international visitors annually; famous for Medina of Fez (oldest university), Hassan II Mosque, and Atlas mountains.",
+  "flag": "🇲🇦",
+  "flag_svg": "https://flagcdn.com/w320/ma.png",
+  "must_know": "Moroccan mint tea is served poured from high above the glass to create a foamy crown, known with affection as 'Berber whiskey'.",
+  "fun_fact": "The University of al-Qarawiyyin in Fez, founded in 859 AD by Fatima al-Fihri, is the oldest operating university in the world.",
+  "continent": "Africa",
+  "lat": 31.79,
+  "lng": -7.09,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 3,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of Morocco",
+    "rivers": "Major waterways, coastal shores, and river basins of Morocco",
+    "climate": "Regional climate with distinct seasonal variations across Morocco",
+    "terrain": "Scenic diverse landscapes defining the beauty of Morocco"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across Morocco.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in Morocco.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in Morocco.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Tagine & Couscous Royale",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across Morocco.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout Morocco.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Djellaba Hooded Robe & Babouche",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in Morocco.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "Gnaoua World Music Fest in Essaouira",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Chefchaouen & Jemaa el-Fnaa",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to Morocco.",
+      "image": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of Morocco."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "The University of al-Qarawiyyin in Fez, founded in 859 AD by Fatima al-Fihri, is the oldest operating university in the world.",
+    "Moroccan mint tea is served poured from high above the glass to create a foamy crown, known with affection as 'Berber whiskey'.",
+    "Famous for Jemaa el-Fnaa square in Marrakech, blue-washed streets of Chefchaouen, Sahara sand dunes of Merzouga, and aromatic Tagines."
+  ]
+}

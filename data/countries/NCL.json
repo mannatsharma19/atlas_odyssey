@@ -1,0 +1,107 @@
+{
+  "id": "NCL",
+  "name": "New Caledonia",
+  "capital": "Nouméa",
+  "currency": "CFP Franc (XPF)",
+  "population": "270,000",
+  "popular_cities": [
+    "Nouméa",
+    "Bourail",
+    "Koné",
+    "Lifou"
+  ],
+  "languages": [
+    "French",
+    "Kanak"
+  ],
+  "famous_for": "World's largest enclosed coral lagoon, Isle of Pines ('Closest island to Paradise'), Kanak cultural totem woodcarvings, and nickel.",
+  "tourists": "Over 130,000 visitors; famous for Heart of Voh mangrove formation, Isle of Pines turquoise bays, and Tjibaou Cultural Centre.",
+  "flag": "🇳🇨",
+  "flag_svg": "https://flagcdn.com/w320/nc.png",
+  "must_know": "The Kanak custom of 'La Coutume' involves presenting a gift (cloth, money, or tobacco) to clan elders when entering tribal lands.",
+  "fun_fact": "The New Caledonia Barrier Reef is the second-longest double barrier reef on Earth after the Belize Barrier Reef.",
+  "continent": "Oceania",
+  "lat": -20.9,
+  "lng": 165.62,
+  "government": "Sovereign State",
+  "hero_image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1200&auto=format&fit=crop",
+  "area": "Covering vast regional terrain",
+  "gdp": "Dynamic economy",
+  "density": "Vibrant population density",
+  "languages_count": 2,
+  "geography": {
+    "mountains": "Highlands, peaks, and iconic natural terrain of New Caledonia",
+    "rivers": "Major waterways, coastal shores, and river basins of New Caledonia",
+    "climate": "Regional climate with distinct seasonal variations across New Caledonia",
+    "terrain": "Scenic diverse landscapes defining the beauty of New Caledonia"
+  },
+  "culture": [
+    {
+      "title": "Hospitality & Warmth",
+      "desc": "Deeply cherished cultural traditions of welcoming visitors with generosity and respect across New Caledonia.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Living Heritage & Art",
+      "desc": "Generations of folklore, architecture, music, and master craftsmanship preserved proudly in New Caledonia.",
+      "icon": "🏛️"
+    },
+    {
+      "title": "Celebration & Community",
+      "desc": "Vibrant festive gatherings, storytelling, and community bonds connecting people in New Caledonia.",
+      "icon": "✨"
+    }
+  ],
+  "food": [
+    {
+      "name": "Bougna (Taro & Seafood in Banana Leaves)",
+      "desc": "Signature culinary tradition and beloved staple dish celebrated across New Caledonia.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "name": "Artisanal Regional Sweets",
+      "desc": "Delicate confectionery, pastries, and festive celebration desserts cherished throughout New Caledonia.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "clothing": {
+    "title": "Manou Woven Wrap Skirt",
+    "desc": "Iconic traditional folk garments and woven cultural clothing worn during ceremonies and festivals in New Caledonia.",
+    "image": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=600&auto=format&fit=crop"
+  },
+  "festivals": [
+    {
+      "name": "Festival des Arts du Pacifique",
+      "date": "National Festive Calendar",
+      "desc": "High-spirited nationwide celebration filled with traditional music, dance, pageantry, and joyous feasts."
+    }
+  ],
+  "famous_places": [
+    {
+      "name": "Isle of Pines & Lagoon",
+      "desc": "World-renowned cultural landmark and iconic destination attracting global travelers to New Caledonia.",
+      "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+  ],
+  "timeline": [
+    {
+      "era": "Ancestral Heritage",
+      "event": "Early cultural foundations, ancient trade roots, and historical settlements that shaped the legacy of New Caledonia."
+    },
+    {
+      "era": "Modern Sovereignty",
+      "event": "Contemporary era marked by vibrant cultural renaissance, international ties, and enduring traditions."
+    }
+  ],
+  "unique_facts": [
+    "The New Caledonia Barrier Reef is the second-longest double barrier reef on Earth after the Belize Barrier Reef.",
+    "The Kanak custom of 'La Coutume' involves presenting a gift (cloth, money, or tobacco) to clan elders when entering tribal lands.",
+    "Famous for World's largest enclosed coral lagoon, Isle of Pines ('Closest island to Paradise'), Kanak cultural totem woodcarvings, and nickel."
+  ]
+}
